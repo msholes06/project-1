@@ -43,8 +43,10 @@ while True:
 ##        gender = child_gender(input("Please enter the child's gender (1 for Male or 2 for Female): "))
         if gender == '1':
             s = 1
+            return s
         elif gender == '2':
             s = 2
+            return s
         else:
             print("Please enter 1 for Male or 2 for Female: ")
 
